@@ -23,7 +23,7 @@ class MineBot(discord.Client):
 
     async def on_ready(self):
         print('O Bot foi logado como: {0.user}'.format(client))
-        # subprocess.Popen('start_server.bat')  # Inicia o servidor de Minecraft
+        subprocess.Popen('start_server.bat')  # Inicia o servidor de Minecraft
 
         # O ".event" é acionado toda vez que algo acontece dentro do servidor no
         # Discord. Neste caso, quando uma mensagem for enviada.
