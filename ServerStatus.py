@@ -25,11 +25,9 @@ class servidor():
             self.latencia = server.ping()
             print(
                 'O servidor está online e seu ping é de {0} ms'.format(self.latency))
-            return (self.online, self.ip,  self.latency)
         except TimeoutError:
             print("O Servidor está Offlile")
             self.online = False
-            return self.online
 
     def ip_publico(self):
         self.ip = str(requests.get('https://api.ipify.org/').text)
