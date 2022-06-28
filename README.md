@@ -16,12 +16,16 @@ Obs: O passo 3 logo será automatizado numa futura atualização (há um pequeno
 # Módulos que estou utilizando:
 
 API do Discord:
+
 py -3 -m pip install -U discord.py
+
 Link da documentação:
 https://discordpy.readthedocs.io/en/stable/index.html
 
 Módulo que se comunica especificamente com servidores de Minecraft*:
+
 python3 -m pip install mcstatus
+
 Link da documentação:
 https://github.com/py-mine/mcstatus/tree/1456bb1de785c4d92b34260958f48e7287b5f45f
 
